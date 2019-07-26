@@ -17,11 +17,15 @@ use yii\web\AssetBundle;
  */
 class MenuAsset extends AssetBundle
 {
-    public $sourcePath = '';
+    public $sourcePath = '@bower/jquery-dynamic-content-menu';
     
-    public $css = [];
+    public $css = [
+        'jquery-dynamic-content-menu.css'
+    ];
     
-    public $js = [];
+    public $js = [
+        'jquery-dynamic-content-menu.js'
+    ];
     
     public $depends = [
         'yii\web\JqueryAsset',
