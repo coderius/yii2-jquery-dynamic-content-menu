@@ -4,7 +4,7 @@
  * @package yii2-extentions
  * @license BSD-3-Clause
  * @copyright Copyright (C) 2012-2019 Sergio coderius <coderius>
- * @contacts sunrise4fun@gmail.com - Have suggestions, contact me :) 
+ * @contacts sunrise4fun@gmail.com - Have suggestions, contact me :)
  * @link https://github.com/coderius - My github
  */
 
@@ -13,7 +13,7 @@ namespace coderius\dynamicDontentMenu;
 use Yii;
 use yii\web\AssetBundle;
 /**
- * Asset bundle jQCloudAsset
+ * Asset bundle yii2-jquery-dynamic-content-menu
  */
 class MenuAsset extends AssetBundle
 {
